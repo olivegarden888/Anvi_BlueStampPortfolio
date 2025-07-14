@@ -47,7 +47,7 @@ For my second milestone I finished building my robotic arm
 <iframe width="560" height="315" src="https://www.youtube.com/embed/kOTR2lKDriY?si=Tf3gUGSXZySFV1TE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
-For my first milestone it was just testing all of the servos and joysticks to make sure that they are working. To make this work I just connected all of the servos and joysticks to my computer and then ran some code to make sure that they would fully work. A challenge that I had was that I had to connect two wires together and then when I was heat shrinking the plastic I accidentally burned the wires. My plan to finish the project is that first I will build the arm and then after building the arm I will code it.
+For my first milestone it was just testing all of the servos, joysticks, and the Nano Shield to make sure that they are working. To make this work I just connected all of the servos and joysticks to my computer and then ran some code to make sure that they would fully work. A challenge that I had was that I had to connect two wires together and then when I was heat shrinking the plastic I accidentally burned the wires. My plan to finish the project is that first I will build the arm and then after building the arm I will code it.
 
  # Starter Project
 
