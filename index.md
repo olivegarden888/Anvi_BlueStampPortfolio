@@ -42,6 +42,19 @@ For your second milestone, explain what you've worked on since your previous mil
 - What needs to be completed before your final milestone 
 For my second milestone I finished building my robotic arm
 
+## Discription 
+
+ For my second milestone it was mostly about building the actually arm and joystick. The arm is three jointed so it has three servos. The jooystick is connected to the Arduino so that it can move using the code that I make in milestone 3.
+
+## Challenges
+
+  During this Milestone I had a couple of challenges like first I could not fit a piece into another one so I had to sandpaper it down so it would fit. Anothr challenge that I had was that I didn't screw a screw in properly so because of that the arm was not stable and would not stand on it's own.
+
+## Next Steps
+
+  For my next Milestone I am going to finish coding my robotic arm so it can move whenever I move the joystick.
+
+
 # First Milestone
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/kOTR2lKDriY?si=Tf3gUGSXZySFV1TE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
