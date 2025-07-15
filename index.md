@@ -75,9 +75,7 @@ Here's where you'll put images of your schematics. [Tinkercad](https://www.tinke
 # Code
 Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
 
-```c++
-void setup() {
-  #include<Servo.h>
+#include<Servo.h>
 Servo myservo;  // create servo object to control a servo
                  // a maximum of eight servo objects can be created  
 int pos = 0;     // variable to store the servo position
@@ -99,7 +97,10 @@ for(pos = 180;pos>=1;pos-=1)  // goes from 180 degrees to 0 degrees
  }
 }
 
+
+
 # Bill of Materials
+
 Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
 Don't forget to place the link of where to buy each component inside the quotation marks in the corresponding row after href =. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize this to your project needs. 
 
