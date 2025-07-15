@@ -63,7 +63,7 @@ A challenge that I had was that I had to connect two wires together and then whe
 My plan to finish the project is that first I will build the arm and then after building the arm I will code it.
 
  # Starter Project
-
+ 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/EDjiuEoxJuI?si=wos0XdUu4kA3OXpi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
   This is an RGB Slider and it works by first plugging it into a power source. Then using the sliders the colors change. For example when you slide the red slider the the intensity of the color red increases and becomes red, same for the other two sliders. What I did was solder the sliders onto the main chip and also added the power source to the card. Over all this project was simple and helped me learn how to solder and how LEDs work.
