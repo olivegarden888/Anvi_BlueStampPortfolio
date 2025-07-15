@@ -62,6 +62,11 @@ A challenge that I had was that I had to connect two wires together and then whe
 ## Next Steps
 My plan to finish the project is that first I will build the arm and then after building the arm I will code it.
 
+## Schematics
+
+![Uploading circuit_image-2.png…]()
+
+
  # Starter Project
  
 <iframe width="560" height="315" src="https://www.youtube.com/embed/EDjiuEoxJuI?si=wos0XdUu4kA3OXpi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
