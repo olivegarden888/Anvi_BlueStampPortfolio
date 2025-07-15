@@ -35,7 +35,7 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/oB7ArvjD6FY?si=KT3m7q0Yzt7fWj95" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-## Discription 
+## Description 
 
  For my second milestone it was mostly about building the actually arm and joystick. The arm is three jointed so it has three servos. The jooystick is connected to the Arduino so that it can move using the code that I make in milestone 3.
 
@@ -52,9 +52,9 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/kOTR2lKDriY?si=Tf3gUGSXZySFV1TE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-## Discription
+## Description
 
-For my first milestone it was just testing all of the servos, joysticks, and the Nano Shield to make sure that they are working. To make this work I just connected all of the servos and joysticks to my computer and then ran some code to make sure that they would fully work. 
+For my first milestone it was just testing all of the servos, joysticks, and the Nano Shield to make sure that they are working. To make this work I just connected all of the servos and joysticks to my computer and then ran some code to make sure that they would fully work. The servos work by using a PWM signal. A PWM signal works by quickly switching a signal off and on between states, and determines the average voltage or power delivered. 
 
 ## Challenge
 A challenge that I had was that I had to connect two wires together and then when I was heat shrinking the plastic I accidentally burned the wires.
