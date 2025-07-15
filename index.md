@@ -64,7 +64,7 @@ My plan to finish the project is that first I will build the arm and then after 
 
 ## Schematics
 
-![Uploading circuit_image-2.png…]()
+![Headstone Image](circuit_image-2.png)
 
 
  # Starter Project
