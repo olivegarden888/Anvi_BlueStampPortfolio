@@ -85,28 +85,18 @@ Here's where you'll put images of your schematics. [Tinkercad](https://www.tinke
 # Code
 Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
 
-#include<Servo.h>
-Servo myservo;  // create servo object to control a servo
-                 // a maximum of eight servo objects can be created  
-int pos = 0;     // variable to store the servo position
-void setup()
-{
-myservo.attach(10);  // attaches the servo on pin 10 to the servo object
-}
-void loop()
-{
-for(pos=0;pos<180;pos+=1)  // goes from 0 degrees to 180 degrees 
-{
- myservo.write(pos); // tell servo to go to position in variable 'pos'
- delay(15);  // waits 15ms for the servo to reach the position
-}
-for(pos = 180;pos>=1;pos-=1)  // goes from 180 degrees to 0 degrees
- {
- myservo.write(pos); // tell servo to go to position in variable 'pos' 
- delay(15);  //waits 15ms for the servo to reach the position
- }
+```c++
+void setup() {
+  // put your setup code here, to run once:
+  Serial.begin(9600);
+  Serial.println("Hello World!");
 }
 
+void loop() {
+  // put your main code here, to run repeatedly:
+
+}
+```
 
 
 # Bill of Materials
