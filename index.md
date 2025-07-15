@@ -97,9 +97,8 @@ for(pos = 180;pos>=1;pos-=1)  // goes from 180 degrees to 0 degrees
  delay(15);  //waits 15ms for the servo to reach the position
  }
 }
-}
 
- # Starter Project
+# Starter Project
  
 <iframe width="560" height="315" src="https://www.youtube.com/embed/EDjiuEoxJuI?si=wos0XdUu4kA3OXpi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
