@@ -39,6 +39,7 @@ For your final milestone, explain the outcome of your project. Key details to in
 
  For my second milestone it was mostly about building the actually arm and joystick. The arm is three jointed so it has three servos. The jooystick is connected to the Arduino so that it can move using the code that I make in milestone 3.
 
+
 ## Challenges
 
   During this Milestone I had a couple of challenges like first I could not fit a piece into another one so I had to sandpaper it down so it would fit. Anothr challenge that I had was that I didn't screw a screw in properly so because of that the arm was not stable and would not stand on it's own.
@@ -46,6 +47,11 @@ For your final milestone, explain the outcome of your project. Key details to in
 ## Next Steps
 
   For my next Milestone I am going to finish coding my robotic arm so it can move whenever I move the joystick.
+  
+## Schematics
+
+![Headstone Image](circuit_image-3.png)
+
 
 
 # First Milestone
@@ -54,7 +60,7 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 ## Description
 
-For my first milestone it was just testing all of the servos, joysticks, and the Nano Shield to make sure that they are working. To make this work I just connected all of the servos and joysticks to my computer and then ran some code to make sure that they would fully work. The servos work by using a PWM signal. A PWM signal works by quickly switching a signal off and on between states, and determines the average voltage or power delivered. 
+For my first milestone it was just testing all of the servos, joysticks, and the Nano Shield to make sure that they are working. To make this work I just connected all of the servos and joysticks to my computer and then ran some code to make sure that they would fully work. The servos work by using a PWM signal. A PWM signal works by quickly switching a signal off and on between states, and determines the average voltage or power delivered. The pin was added to pin number 7.
 
 ## Challenge
 A challenge that I had was that I had to connect two wires together and then when I was heat shrinking the plastic I accidentally burned the wires.
