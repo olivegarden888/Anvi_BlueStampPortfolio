@@ -37,8 +37,7 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 ## Description 
 
- For my second milestone it was mostly about building the actually arm and joystick. The arm is three jointed so it has three servos. The jooystick is connected to the Arduino so that it can move using the code that I make in milestone 3.
-
+ For my second milestone, I focused on building the robotic arm and connecting the joystick. The arm has three joints, so I used three servo motors one for each joint and also another servo so it can rotate. I also connected the joystick to the Arduino. Later, in Milestone 3, I’ll write the code that makes the arm move using the joystick.
 
 ## Challenges
 
@@ -60,7 +59,7 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 ## Description
 
-For my first milestone it was just testing all of the servos, joysticks, and the Nano Shield to make sure that they are working. To make this work I just connected all of the servos and joysticks to my computer and then ran some code to make sure that they would fully work. The servos work by using a PWM signal. A PWM signal works by quickly switching a signal off and on between states, and determines the average voltage or power delivered. The pin was added to pin number 7.
+For my first milestone, I tested all the parts like the servos, joysticks, and the Nano Shield to make sure they were working. I connected everything to my computer and ran some simple code to check if the parts worked properly. The servos move using something called a PWM signal. PWM stands for "Pulse Width Modulation," which means the signal quickly turns on and off to control how much power is sent. I connected the servo signal to pin number 7 on the Arduino Shield.
 
 ## Challenge
 A challenge that I had was that I had to connect two wires together and then when I was heat shrinking the plastic I accidentally burned the wires.
