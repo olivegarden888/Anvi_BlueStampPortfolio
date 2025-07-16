@@ -41,10 +41,6 @@
 
   For my next Milestone I am going to finish coding my robotic arm so it can move whenever I move the joystick.
   
-## Schematics
-
-![Headstone Image](circuit_image-3.png)
-
 
 
 # First Milestone
@@ -85,6 +81,8 @@ My plan to finish the project is that first I will build the arm and then after 
 
 ## Milestone 1
 
+### Servo Testing
+
 ```c++
 void loop() {
   // put your main code here, to run repeatedly: #include<Servo.h>
@@ -109,8 +107,14 @@ for(pos = 180;pos>=1;pos-=1)  // goes from 180 degrees to 0 degrees
  }
 }
 ```
+### Joystick Testing
+
+### NANO Shield Testing
+
 
 ## Milestone 3
+
+### Arm
 
 ```c++
 This code applies to cokoino mechanical arm
