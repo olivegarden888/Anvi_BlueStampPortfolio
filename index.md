@@ -17,7 +17,7 @@
 
  ## Description
 
-  For my third milestone, I used the robotic arm I built in Milestone 2 and added code to control it with a joystick. Now, I can move the arm just by moving the joystick. Different directions on the joystick make different parts of the arm move. For example, pushing the joystick to the left makes the base of the arm rotate. For my modifications I want to either add a speaker to the arm or add wheels so it can move around while grabbing things.
+  For my third milestone, I used the robotic arm I built in Milestone 2 and added code to control it with a joystick. Now, I can move the arm just by moving the joystick. Different directions on the joystick make different parts of the arm move. For example, pushing the joystick to the left makes the base of the arm rotate. 
 
 ## Challenges
 
@@ -63,7 +63,7 @@ My plan to finish the project is that first I will build the arm and then after 
  
 <iframe width="560" height="315" src="https://www.youtube.com/embed/EDjiuEoxJuI?si=wos0XdUu4kA3OXpi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-  This is an RGB Slider and it works by first plugging it into a power source. Then using the sliders the colors change. For example when you slide the red slider the the intensity of the color red increases and becomes red, same for the other two sliders. What I did was solder the sliders onto the main chip and also added the power source to the card. Over all this project was simple and helped me learn how to solder and how LEDs work.
+  This is an RGB Slider and it works by first plugging it into a power source. Then using the sliders the colors change. For example when you slide the red slider the the intensity of the color red increases and becomes red, same for the other two sliders. What I did was solder the sliders onto the main chip and also added the power source to the card. Overall this project was simple and helped me learn how to solder and how LEDs work.
 
 
 
@@ -346,6 +346,10 @@ Serial.println(xR, DEC);
 
 
 ```
+# How It Works
+
+## Servos
+## PWM
 
 # Bill of Materials
 
