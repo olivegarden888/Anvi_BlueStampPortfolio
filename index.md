@@ -22,8 +22,95 @@
 ## Challenges
 
   During this Milestone I had a couple of challenges like after I built the arm and wrote the code the joystick wasn't moving the arm so I thought it was a proplem with the servos and dismalntled it the whole arm but then relized that it was a problem with the batteries and had to redo the whole arm. Another problem was with the buzzer so it kept buzzing and I had to change the code so it would stop thte buzzing.
+  
 
-## Code
+
+# Second Milestone
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/oB7ArvjD6FY?si=KT3m7q0Yzt7fWj95" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+## Description 
+
+ For my second milestone, I focused on building the robotic arm and connecting the joystick. The arm has three joints, so I used three servo motors one for each joint and also another servo so it can rotate. I also connected the joystick to the Arduino. Later, in Milestone 3, I’ll write the code that makes the arm move using the joystick.
+
+## Challenges
+
+  During this Milestone I had a couple of challenges like first I could not fit a piece into another one so I had to sandpaper it down so it would fit. Anothr challenge that I had was that I didn't screw a screw in properly so because of that the arm was not stable and would not stand on it's own.
+
+## Next Steps
+
+  For my next Milestone I am going to finish coding my robotic arm so it can move whenever I move the joystick.
+  
+## Schematics
+
+![Headstone Image](circuit_image-3.png)
+
+
+
+# First Milestone
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kOTR2lKDriY?si=Tf3gUGSXZySFV1TE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+## Description
+
+For my first milestone, I tested all the parts like the servos, joysticks, and the Nano Shield to make sure they were working. I connected everything to my computer and ran some simple code to check if the parts worked properly. The servos move using something called a PWM signal. PWM stands for "Pulse Width Modulation," which means the signal quickly turns on and off to control how much power is sent. I connected the servo signal to pin number 7 on the Arduino Shield.
+
+## Challenge
+A challenge that I had was that I had to connect two wires together and then when I was heat shrinking the plastic I accidentally burned the wires.
+
+## Next Steps
+My plan to finish the project is that first I will build the arm and then after building the arm I will code it.
+
+
+
+# Starter Project
+ 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EDjiuEoxJuI?si=wos0XdUu4kA3OXpi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+  This is an RGB Slider and it works by first plugging it into a power source. Then using the sliders the colors change. For example when you slide the red slider the the intensity of the color red increases and becomes red, same for the other two sliders. What I did was solder the sliders onto the main chip and also added the power source to the card. Over all this project was simple and helped me learn how to solder and how LEDs work.
+
+
+
+# Schematics
+
+## Milestone 1
+
+![Headstone Image](circuit_image-2.png)
+
+## Milestone 2
+
+![Headstone Image](circuit_image-3.png)
+
+# Code 
+
+## Milestone 1
+
+```c++
+void loop() {
+  // put your main code here, to run repeatedly: #include<Servo.h>
+Servo myservo;  // create servo object to control a servo
+                 // a maximum of eight servo objects can be created  
+int pos = 0;     // variable to store the servo position
+void setup()
+{
+myservo.attach(10);  // attaches the servo on pin 10 to the servo object
+}
+void loop()
+{
+for(pos=0;pos<180;pos+=1)  // goes from 0 degrees to 180 degrees 
+{
+ myservo.write(pos); // tell servo to go to position in variable 'pos'
+ delay(15);  // waits 15ms for the servo to reach the position
+}
+for(pos = 180;pos>=1;pos-=1)  // goes from 180 degrees to 0 degrees
+ {
+ myservo.write(pos); // tell servo to go to position in variable 'pos' 
+ delay(15);  //waits 15ms for the servo to reach the position
+ }
+}
+```
+
+## Milestone 3
 
 ```c++
 This code applies to cokoino mechanical arm
@@ -220,100 +307,6 @@ Serial.println(xR, DEC);
 
 
 ```
-
-
-
-# Second Milestone
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/oB7ArvjD6FY?si=KT3m7q0Yzt7fWj95" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-## Description 
-
- For my second milestone, I focused on building the robotic arm and connecting the joystick. The arm has three joints, so I used three servo motors one for each joint and also another servo so it can rotate. I also connected the joystick to the Arduino. Later, in Milestone 3, I’ll write the code that makes the arm move using the joystick.
-
-## Challenges
-
-  During this Milestone I had a couple of challenges like first I could not fit a piece into another one so I had to sandpaper it down so it would fit. Anothr challenge that I had was that I didn't screw a screw in properly so because of that the arm was not stable and would not stand on it's own.
-
-## Next Steps
-
-  For my next Milestone I am going to finish coding my robotic arm so it can move whenever I move the joystick.
-  
-## Schematics
-
-![Headstone Image](circuit_image-3.png)
-
-
-
-# First Milestone
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/kOTR2lKDriY?si=Tf3gUGSXZySFV1TE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-## Description
-
-For my first milestone, I tested all the parts like the servos, joysticks, and the Nano Shield to make sure they were working. I connected everything to my computer and ran some simple code to check if the parts worked properly. The servos move using something called a PWM signal. PWM stands for "Pulse Width Modulation," which means the signal quickly turns on and off to control how much power is sent. I connected the servo signal to pin number 7 on the Arduino Shield.
-
-## Challenge
-A challenge that I had was that I had to connect two wires together and then when I was heat shrinking the plastic I accidentally burned the wires.
-
-## Next Steps
-My plan to finish the project is that first I will build the arm and then after building the arm I will code it.
-
-## Schematics
-
-![Headstone Image](circuit_image-2.png)
-
-## Code
-
-```c++
-
-void loop() {
-  // put your main code here, to run repeatedly: #include<Servo.h>
-Servo myservo;  // create servo object to control a servo
-                 // a maximum of eight servo objects can be created  
-int pos = 0;     // variable to store the servo position
-void setup()
-{
-myservo.attach(10);  // attaches the servo on pin 10 to the servo object
-}
-void loop()
-{
-for(pos=0;pos<180;pos+=1)  // goes from 0 degrees to 180 degrees 
-{
- myservo.write(pos); // tell servo to go to position in variable 'pos'
- delay(15);  // waits 15ms for the servo to reach the position
-}
-for(pos = 180;pos>=1;pos-=1)  // goes from 180 degrees to 0 degrees
- {
- myservo.write(pos); // tell servo to go to position in variable 'pos' 
- delay(15);  //waits 15ms for the servo to reach the position
- }
-}
-```
-
-# Starter Project
- 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/EDjiuEoxJuI?si=wos0XdUu4kA3OXpi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-  This is an RGB Slider and it works by first plugging it into a power source. Then using the sliders the colors change. For example when you slide the red slider the the intensity of the color red increases and becomes red, same for the other two sliders. What I did was solder the sliders onto the main chip and also added the power source to the card. Over all this project was simple and helped me learn how to solder and how LEDs work.
-
-
-# Code
-Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
-
-```c++
-void setup() {
-  // put your setup code here, to run once:
-  Serial.begin(9600);
-  Serial.println("Hello World!");
-}
-
-void loop() {
-  // put your main code here, to run repeatedly:
-
-}
-```
-
 
 # Bill of Materials
 
