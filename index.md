@@ -109,9 +109,44 @@ for(pos = 180;pos>=1;pos-=1)  // goes from 180 degrees to 0 degrees
 ```
 ### Joystick Testing
 
+```c++
+void setup() { 
+pinMode(3, INPUT); 
+Serial.begin(9600); 
+} 
+void loop(){
+int value = 0; 
+value = analogRead(A0); 
+Serial.print("X:"); 
+Serial.print(value, DEC); 
+value = analogRead(A1); 
+Serial.print(" | Y:"); 
+Serial.print(value, DEC); 
+value = digitalRead(3); 
+Serial.print(" | Z: "); 
+Serial.println(value, DEC); 
+delay(100); 
+}
+```
+
 ### NANO Shield Testing
-
-
+```c++
+#include <IRremote.h>
+int RECV_PIN = 8;
+IRrecv irrecv(RECV_PIN);
+decode_results results;
+void setup()
+{
+  Serial.begin(9600);
+  irrecv.enableIRIn(); // Start the receiver
+}
+void loop() {
+  if (irrecv.decode(&results)) {
+    Serial.println(results.value, HEX);
+    irrecv.resume(); // Receive the next value
+  }
+}
+```
 ## Milestone 3
 
 ### Arm
