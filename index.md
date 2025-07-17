@@ -25,7 +25,7 @@ The code that controls the arm uses a special library made for the robotic arm. 
 
 ## Challenges
 
-  One of the hardest parts of this project was getting the servos to move when I used the joystick. At first, I thought the code was wrong or the servos were broken, because nothing was moving. So, I took apart the whole robotic arm and tested each servo one at a time using a simple program. They all worked fine. That’s when I figured out the real problem was the batteries. I haad not fully pushed in the batteries and after I pushed the battries in better the joystick started to move the arm.
+  One of the hardest parts of this project was getting the servos to move when I used the joystick. At first, I thought the code was wrong or the servos were broken, because nothing was moving. So, I took apart the whole robotic arm and tested each servo one at a time using a simple program. They still did not work. That’s when I figured out the real problem was the batteries. I had not fully pushed in the batteries and after I pushed the battries in better the joystick started to move the arm.
 
 Another problem was that after I rebuilt the arm, it was loose and wobbly. Some joints weren’t tight enough, and some servos didn’t fit perfectly into the arm parts. Some servo arms were too big or didn’t line up with the screw holes. I had to figure out which servos worked best with each part and tighten all the screws really well. After swapping the servo arm everything fit in properly and the joints were in properly.
 
