@@ -25,8 +25,12 @@ The code that controls the arm uses a special library made for the robotic arm. 
 
 ## Challenges
 
-  During this Milestone I had a couple of challenges like after I built the arm and wrote the code the joystick wasn't moving the arm so I thought it was a proplem with the servos and dismalntled it the whole arm but then relized that it was a problem with the batteries and had to redo the whole arm. Another problem was with the buzzer so it kept buzzing and I had to change the code so it would stop thte buzzing.
-  
+  One of the hardest parts of this project was getting the servos to move when I used the joystick. At first, I thought the code was wrong or the servos were broken, because nothing was moving. So, I took apart the whole robotic arm and tested each servo one at a time using a simple program. They all worked fine. That’s when I figured out the real problem was the batteries. I haad not fully pushed in the batteries and after I pushed the battries in better the joystick started to move the arm.
+
+Another problem was that after I rebuilt the arm, it was loose and wobbly. Some joints weren’t tight enough, and some servos didn’t fit perfectly into the arm parts. Some servo arms were too big or didn’t line up with the screw holes. I had to figure out which servos worked best with each part and tighten all the screws really well. After swapping the servo arm everything fit in properly and the joints were in properly.
+
+I also had trouble with the buzzer. When I turned everything on, the buzzer made a loud buzzing noise. I checked the code and saw that the buzzer was turning on because the on the code it had set the buzzer to be high. So what I did to fix it was I changed the volume from high to low.  After that, the buzzer worked the way it should.
+
 
 
 # Second Milestone
