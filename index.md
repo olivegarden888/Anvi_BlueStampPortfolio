@@ -17,7 +17,7 @@
 
  ## Description
 
-  For my third milestone, I used the robotic arm I built in Milestone 2 and added code to control it with a joystick. Now, I can move the arm just by moving the joystick. Different directions on the joystick make different parts of the arm move. For example, pushing the joystick to the left makes the base of the arm rotate. 
+  For my third milestone, I used the robotic arm I built in Milestone 2 and added code to control it with a joystick. Now, I can move the arm just by moving the joystick. Different directions on the joystick make different parts of the arm move. On the left joystick moving it up moves the arm bend backwards, moving it down moves it forward, moving it to the right makes the base turn to the left, and moving it to the left makes the base of the arm move to the right.  
 
 ## Challenges
 
@@ -346,7 +346,7 @@ Serial.println(xR, DEC);
 
 
 ```
-# How It Works
+<!--- # How It Works
 
 ## Servos
 ## PWM
@@ -368,4 +368,4 @@ One of the best parts about Github is that you can view how other people set up 
 - [Example 2](https://sviatil0.github.io/Sviatoslav_BSE/)
 - [Example 3](https://arneshkumar.github.io/arneshbluestamp/)
 
-To watch the BSE tutorial on how to create a portfolio, click here.
+To watch the BSE tutorial on how to create a portfolio, click here. -->
