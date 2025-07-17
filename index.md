@@ -362,10 +362,15 @@ Serial.println(xR, DEC);
 
 
 ```
-<!--- # How It Works
+ # How It Works
 
 ## Servos
+
+  A servo is a small motor that can move things, like arms or wheels, to a certain angle or position. It’s super useful in robots because it can turn exactly how much you want it to. Servos use something called PWM (Pulse Width Modulation) to control their movement. That just means it gets a signal that tells it how far to turn. For example, if you want a robot arm to lift up halfway, you can tell the servo to turn 90 degrees. Servos are different from regular motors because they are really good at stopping in the exact spot you want!
+  
 ## PWM
+
+PWM stands for Pulse Width Modulation. It’s a way to control how much power something gets by turning the signal on and off really fast. Even though it’s switching on and off quickly, it tricks the motor or light into thinking it’s getting less or more power. If the signal is on most of the time, the motor goes faster or the light shines brighter. If it’s off more of the time, the motor goes slower or the light gets dimmer. It’s like quickly flicking a light switch on and off, but doing it so fast that your eyes (or a motor) don’t even notice—it just feels smoother.
 
 # Bill of Materials
 
