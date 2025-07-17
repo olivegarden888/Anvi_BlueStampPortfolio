@@ -39,7 +39,11 @@ I also had trouble with the buzzer. When I turned everything on, the buzzer made
 
 ## Description 
 
- For my second milestone, I focused on building the robotic arm and connecting the joystick. The arm has three joints, so I used three servo motors one for each joint and also another servo so it can rotate. I also connected the joystick to the Arduino. Later, in Milestone 3, I’ll write the code that makes the arm move using the joystick.
+For my second milestone, I built a robotic arm with four servo motors. Each motor moves a different part of the arm: one turns the base, one lifts the bottom part, one moves the middle joint, and the last one controls the claw at the top. I carefully mounted the servos to match the arm's joints so each one could move a specific section. 
+
+To make the servos move later, I connected each one to the Arduino. Servo motors need three wires: power (red), ground (black), and signal (white). The signal wires tell the servo what angle to turn to, so I connected those to specific digital pins on the Arduino that support PWM: Servo 1 to pin 7, Servo 2 to pin 6, Servo 3 to pin 5, and Servo 4 to pin 4. 
+
+I also wired up a joystick to control the robotic arm. The joystick has two axes — X and Y — that detect movement when I push the stick left/right or up/down. These axes are connected to analog pins A0 and A1 on the Arduino so it can read the movement values. I also connected the joystick’s VCC pin to 5V for power and its GND pin to ground. In my next milestone, I’ll write the code that reads the joystick's input and moves the servos to match, so I can control the robotic arm by simply moving the joystick.
 
 ## Challenges
 
@@ -57,7 +61,11 @@ I also had trouble with the buzzer. When I turned everything on, the buzzer made
 
 ## Description
 
-For my first milestone, I tested all the parts like the servos, joysticks, and the Nano Shield to make sure they were working. I connected everything to my computer and ran some simple code to check if the parts worked properly. The servos move using something called a PWM signal. PWM stands for "Pulse Width Modulation," which means the signal quickly turns on and off to control how much power is sent. I connected the servo signal to pin number 7 on the Arduino Shield.
+For my first milestone, I started by testing all the parts to make sure they were working. I used parts like servos (which help things move), a joystick (like the ones on a game controller), an IR sensor (which reads signals from a remote), and a Nano Shield (a board that helps connect everything to the Arduino). I plugged them into my computer and used simple programs to check that each part responded the way it was supposed to. This step is important so I don’t run into surprises later when building the full project.
+
+One of the first parts I tested was the joystick. I wrote code that let the joystick control how the servos moved. The servos use something called a PWM signal, which stands for "Pulse Width Modulation." It just means the power quickly turns on and off to make the servo move to the correct angle. I connected the signal wire from the servo to pin number 7 on the Nano Shield. When I moved the joystick, the servo would move too, which showed me it was working correctly using my code.
+
+Next, I tested the IR sensor. This sensor lets the Arduino read signals from a remote control—kind of like a TV remote works. I uploaded a code that could read and show the number sent by each button press. When I pressed a button on the remote, I saw a number pop up on the serial monitor on my computer. That told me the IR sensor was receiving signals correctly and was ready to be used for controlling the robot in the next steps.
 
 ## Challenge
 A challenge that I had was that I had to connect two wires together and then when I was heat shrinking the plastic I accidentally burned the wires.
