@@ -17,7 +17,11 @@
 
  ## Description
 
-  For my third milestone, I used the robotic arm I built in Milestone 2 and added code to control it with a joystick. Now, I can move the arm just by moving the joystick. Different directions on the joystick make different parts of the arm move. On the left joystick moving it up moves the arm bend backwards, moving it down moves it forward, moving it to the right makes the base turn to the left, and moving it to the left makes the base of the arm move to the right.  
+ For my third milestone, I upgraded the robotic arm I built in Milestone 2 by adding joystick control. This means that instead of using buttons or uploading new code every time I want the arm to move, I can now control it in real time just by using a joystick! This is a huge improvement because it makes the arm easier to use and more fun to operate.
+
+The robotic arm uses two joysticks, one on the left and one on the right. The left joystick controls the base and the bending of the arm. When I push the joystick up, the arm bends backward. When I move it down, the arm moves forward. Moving the joystick to the left turns the base of the arm to the right, and moving it to the right turns the base to the left. The right joystick controls the claw. Pushing it left opens the claw, and pushing it right closes it.
+
+The code that controls the arm uses a special library made for the robotic arm. It constantly reads the position of both joysticks, checking whether they are being pushed in any direction. If they are, the code sends commands to the motors to move certain parts of the arm. For example, if the left joystick is pushed up, the code runs a function, which makes the upper part of the arm move upward at a certain speed. 
 
 ## Challenges
 
