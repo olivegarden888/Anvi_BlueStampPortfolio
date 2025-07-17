@@ -43,11 +43,11 @@ For my second milestone, I built a robotic arm with four servo motors. Each moto
 
 To make the servos move later, I connected each one to the Arduino. Servo motors need three wires: power (red), ground (black), and signal (white). The signal wires tell the servo what angle to turn to, so I connected those to specific digital pins on the Arduino that support PWM: Servo 1 to pin 7, Servo 2 to pin 6, Servo 3 to pin 5, and Servo 4 to pin 4. 
 
-I also wired up a joystick to control the robotic arm. The joystick has two axes — X and Y — that detect movement when I push the stick left/right or up/down. These axes are connected to analog pins A0 and A1 on the Arduino so it can read the movement values. I also connected the joystick’s VCC pin to 5V for power and its GND pin to ground. In my next milestone, I’ll write the code that reads the joystick's input and moves the servos to match, so I can control the robotic arm by simply moving the joystick.
+I also wired up a joystick to control the robotic arm. The joystick has two axes — X and Y — that detect movement when I push the stick left/right or up/down. These axes are connected to analog pins A0 and A1 on the Arduino so it can read the movement values. I also connected the joystick’s its GND pin to ground. In my next milestone, I’ll write the code that reads the joystick's input and moves the servos to match, so I can control the robotic arm by simply moving the joystick.
 
 ## Challenges
 
-  During this Milestone I had a couple of challenges like first I could not fit a piece into another one so I had to sandpaper it down so it would fit. Anothr challenge that I had was that I didn't screw a screw in properly so because of that the arm was not stable and would not stand on it's own.
+  During this Milestone I had a couple of challenges like first I could not fit a piece into another one so I had to sandpaper it down so it would fit. Another challenge that I had was that I didn't screw a screw in properly so because of that the arm was not stable and would not stand on it's own.
 
 ## Next Steps
 
@@ -61,14 +61,14 @@ I also wired up a joystick to control the robotic arm. The joystick has two axes
 
 ## Description
 
-For my first milestone, I started by testing all the parts to make sure they were working. I used parts like servos (which help things move), a joystick (like the ones on a game controller), an IR sensor (which reads signals from a remote), and a Nano Shield (a board that helps connect everything to the Arduino). I plugged them into my computer and used simple programs to check that each part responded the way it was supposed to. This step is important so I don’t run into surprises later when building the full project.
+For my first milestone, I started by testing all the parts to make sure they were working. I used parts like servos (which help things move), a joystick, an IR sensor, and a Nano Shield. I plugged them into my computer and used simple programs to check that each part responded the way it was supposed to. This step is important so I don’t run into surprises later when building the full project.
 
 One of the first parts I tested was the joystick. I wrote code that let the joystick control how the servos moved. The servos use something called a PWM signal, which stands for "Pulse Width Modulation." It just means the power quickly turns on and off to make the servo move to the correct angle. I connected the signal wire from the servo to pin number 7 on the Nano Shield. When I moved the joystick, the servo would move too, which showed me it was working correctly using my code.
 
 Next, I tested the IR sensor. This sensor lets the Arduino read signals from a remote control—kind of like a TV remote works. I uploaded a code that could read and show the number sent by each button press. When I pressed a button on the remote, I saw a number pop up on the serial monitor on my computer. That told me the IR sensor was receiving signals correctly and was ready to be used for controlling the robot in the next steps.
 
 ## Challenge
-A challenge that I had was that I had to connect two wires together and then when I was heat shrinking the plastic I accidentally burned the wires.
+A challenge that I had was that I had to connect two wires together and then when I was heat shrinking the plastic I accidentally burned the wires. I also had problems with the IR sensor. After I uploaded the code to the sensor it wouldn't write the number onto the sieral monitor. To fix it I relized it had to use a remote to test the sensor.
 
 ## Next Steps
 My plan to finish the project is that first I will build the arm and then after building the arm I will code it.
