@@ -15,6 +15,8 @@
 
 ## Description 
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/M7PcRab9Mxs?si=4cyGRBtUkhleTk1h" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
   For my modification, I added a car to my robotic arm and connected everything to the same Arduino. The car has three wheels and uses two motors to move. I had to use a motor driver so the car could connect to the Arduino. This let me control both the robotic arm and the car at the same time. All I had to do was add some extra code to my original program to make the car move.  
 
 ## Challenges
