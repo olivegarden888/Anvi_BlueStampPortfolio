@@ -15,7 +15,13 @@
 
 ## Description 
 
-  For my project, I added a car to my robotic arm and connected everything to the same Arduino. This way, I could control both the arm and the car together. All I had to do was add some extra code to my original robotic arm program to make the car move.   
+  For my modification, I added a car to my robotic arm and connected everything to the same Arduino. The car has three wheels and uses two motors to move. I had to use a motor driver so the car could connect to the Arduino. This let me control both the robotic arm and the car at the same time. All I had to do was add some extra code to my original program to make the car move.  
+
+## Challenges
+
+One challenge I had was when I was trying to attach the motors to the main piece of the car. The part that was supposed to hold the motors didn’t fit correctly. Because of that, I had to use hot glue to stick the motors to the main plastic piece. This helped keep the motors in place so the car could move properly.
+
+
   
 # Final Milestone
 
@@ -562,7 +568,7 @@ void setup() {
 void loop() {
   xL = arm.JoyStickL.read_x();
   yL = arm.JoyStickL.read_y();
-  xR = arm.JoyStickR.read_x();
+  xR = arm.JoyStickR.read_x();       // Arm 
   yR = arm.JoyStickR.read_y();
   date_processing(&xL,&yL);
   date_processing(&xR,&yR);
@@ -575,7 +581,7 @@ void loop() {
   Serial.print("xL:"); 
 Serial.print(xL, DEC);
 Serial.print("yL:"); 
-Serial.print(yL, DEC);
+Serial.print(yL, DEC);        // Debugging 
 Serial.print("xR:"); 
 Serial.print(yR, DEC);
 Serial.print("xR:"); 
@@ -584,8 +590,8 @@ Serial.println(xR, DEC);
 if(yR > 900){
   Serial.println ("backwards");
   backward();
-} else if (yR == 0){
-  Serial.println ("forward");
+} else if (yR == 0){      
+  Serial.println ("forward");    // Wheels
   forward();
 }
 else {
@@ -600,23 +606,23 @@ void forward() {
 }
 
 void backward() {       
-  digitalWrite(A_1, LOW);
-  digitalWrite(A_2, HIGH);
+  digitalWrite(A_1, LOW);     // function of backward
+  digitalWrite(A_2, HIGH);    
   digitalWrite(B_1, LOW);
   digitalWrite(B_2, HIGH);
 }
 
 void stop() {              
-  digitalWrite(A_1, LOW);
+  digitalWrite(A_1, LOW);    // function of stop
   digitalWrite(A_2, LOW);
-  digitalWrite(B_1, LOW);
+  digitalWrite(B_1, LOW);  
   digitalWrite(B_2, LOW);
   
 }
 ```
 
 
- # How It Works
+# How It Works
 
 ## Servos
 
