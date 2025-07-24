@@ -622,12 +622,20 @@ void stop() {
 }
 ```
 
+# How It Works
+
+## Servos
+
+  A servo  is a special type of motor that can move to a specific position and stop there, unlike regular motors that just spin. Servos are often used in things like robot arms, RC cars, and airplanes to control steering or movement. They work by receiving a control signal that tells them what angle to move to like turning exactly 90 degrees or 45 degrees. Inside, they have a small motor, some gears, and a sensor that helps it know where it is. Servos don’t need a motor driver like regular motors, they can be connected directly to a microcontroller like an Arduino, making them easy to use for small projects.
+
+## Motor Drivers
+
+  A motor driver is a small electronic device that helps control motors using signals from a computer or microcontroller like an Arduino. Since computers can’t provide enough power to run motors directly, the motor driver takes the small signal and boosts it using power from a battery. It acts like a bridge between the weak signal from the computer and the strong power needed by the motor. Most motor drivers use something called an H-bridge, which works like switches to control the direction the motor spins—forward or backward. They can also control the speed by turning the power on and off quickly. Motor drivers are super important in robots, cars, and other projects where motors are used.
+
   
 
 # Bill of Materials
 
-Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
-Don't forget to place the link of where to buy each component inside the quotation marks in the corresponding row after href =. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize this to your project needs. 
 
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
