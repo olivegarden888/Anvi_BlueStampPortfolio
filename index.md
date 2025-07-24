@@ -1,13 +1,12 @@
 # Three Jointed Robotic Arm
 
-<!--- Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails! -->
-
+  My project is a robotic arm with three joints, and it's attached to a car. It works using a joystick that's connected to an Arduino. When you move the joystick in different ways, the arm moves in different directions. For example, pushing the right joystick up makes the base of the arm turn. The car part lets the arm drive around on wheels. One big thing I learned is that you should never give up when building something. If something doesn’t work, you just have to keep fixing it until it does. My biggest triumph was when I finished building the arm, connected it to the joystick with code, and it actually worked. 
+  
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
 | Anvi G | Windmere Ranch Middle School | Computer Science | Incoming 7th Grader
 
-**Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
 
 ![Headstone Image](AnviV.heic)
 
