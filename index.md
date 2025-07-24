@@ -8,7 +8,7 @@
 | Anvi G | Windmere Ranch Middle School | Computer Science | Incoming 7th Grader
 
 
-![Headstone Image](AnviV.heic)
+![Headstone Image](AnviV-2.heic)
 
 # Modification
 
