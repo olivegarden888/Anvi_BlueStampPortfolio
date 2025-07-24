@@ -108,7 +108,7 @@ My plan to finish the project is that first I will build the arm and then after 
 
 ## Modification 
 
-![Headstone Image](circuit_image-4.png)
+![Headstone Image](circuit_image-5.png)
 
 # Code 
 
